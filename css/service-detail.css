@@ -1,0 +1,211 @@
+/* css/service-detail.css */
+
+/* Back Button */
+.btn-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--text-dark);
+    padding: 0.8rem 1.6rem;
+    border: 1px solid var(--border-light);
+    border-radius: 0.2rem;
+    transition: all var(--transition-fast);
+}
+
+.btn-back:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Service Hero */
+.service-hero {
+    position: relative;
+    height: 55vh;
+    min-height: 40rem;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.service-hero-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.03);
+    transition: transform 0.8s ease;
+}
+
+.service-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(26, 26, 26, 0.85) 30%, rgba(26, 26, 26, 0.2) 100%);
+}
+
+.service-hero-content {
+    position: relative;
+    z-index: 10;
+    padding: 4.8rem 3.2rem;
+    max-width: 80rem;
+}
+
+.service-hero-eyebrow {
+    display: block;
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 1.6rem;
+}
+
+.service-hero-title {
+    color: var(--text-light);
+    font-size: 4rem;
+    line-height: 1.15;
+    margin-bottom: 1.6rem;
+}
+
+@media (min-width: 768px) {
+    .service-hero-title {
+        font-size: 5.5rem;
+    }
+
+    .service-hero-content {
+        padding: 6.4rem 8rem;
+    }
+}
+
+.service-hero-desc {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.6rem;
+    max-width: 50rem;
+}
+
+/* Service Main Content */
+.service-main {
+    padding: 8rem 0;
+}
+
+/* Intro */
+.detail-intro {
+    max-width: 75rem;
+    margin: 0 auto 8rem;
+    padding-bottom: 6.4rem;
+    border-bottom: 1px solid var(--border-light);
+    text-align: center;
+}
+
+.detail-lead {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    color: var(--muted);
+}
+
+.detail-lead strong {
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+/* Sub-services */
+.detail-services {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    max-width: 85rem;
+    margin: 0 auto;
+}
+
+.detail-service-item {
+    display: flex;
+    gap: 3.2rem;
+    align-items: flex-start;
+    padding: 4rem 0;
+    border-bottom: 1px solid var(--border-light);
+    transition: background-color var(--transition-fast);
+}
+
+.detail-service-item:last-child {
+    border-bottom: none;
+}
+
+.detail-service-item:hover .detail-icon {
+    color: var(--text-light);
+}
+
+.detail-service-item:hover .detail-service-icon-wrap {
+    background-color: var(--primary);
+}
+
+.detail-service-icon-wrap {
+    flex-shrink: 0;
+    width: 6.4rem;
+    height: 6.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(197, 159, 89, 0.08);
+    transition: background-color var(--transition-fast);
+}
+
+.detail-icon {
+    font-size: 2.8rem;
+    color: var(--primary);
+    transition: color var(--transition-fast);
+}
+
+.detail-service-body {
+    flex: 1;
+    padding-top: 0.8rem;
+}
+
+.detail-service-title {
+    font-size: 2.4rem;
+    font-family: var(--font-serif);
+    font-weight: 500;
+    margin-bottom: 1.2rem;
+}
+
+.detail-service-desc {
+    font-size: 1.6rem;
+    color: var(--muted);
+    line-height: 1.7;
+}
+
+/* CTA Bottom */
+.detail-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+    margin-top: 8rem;
+    padding: 6.4rem 2.4rem;
+    text-align: center;
+    background-color: var(--bg-dark);
+    border-radius: 0.4rem;
+}
+
+.detail-cta-text {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.8rem;
+}
+
+.detail-cta .btn-primary {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--bg-dark);
+}
+
+/* Footer minimal */
+.service-footer {
+    text-align: center;
+    padding: 3.2rem;
+    border-top: 1px solid var(--border-light);
+    background-color: var(--bg-light);
+}

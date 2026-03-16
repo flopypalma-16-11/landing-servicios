@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Otium Concierge - Tu tiempo es tu mayor lujo</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#c59f59",
+              "background-light": "#f8f7f6",
+              "background-dark": "#1e1a14",
+              "neutral-dark": "#1a1a1a",
+              "neutral-muted": "#81796a",
+            },
+            fontFamily: {
+              "display": ["Manrope", "serif"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Manrope', sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+        .serif-title {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-neutral-dark dark:text-slate-100 selection:bg-primary/30">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Header / Navigation -->
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-primary/10 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md px-6 md:px-20 py-4">
+<div class="flex items-center gap-3 text-neutral-dark dark:text-slate-100">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-3xl">temple_hindu</span>
+</div>
+<h2 class="text-xl font-light tracking-[0.2em] uppercase serif-title">Otium Concierge</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-center gap-10">
+<a class="text-neutral-dark dark:text-slate-100 text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#">Servicios</a>
+<a class="text-neutral-dark dark:text-slate-100 text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#">Life Manager</a>
+<a class="text-neutral-dark dark:text-slate-100 text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#">Filosofía</a>
+<a class="text-neutral-dark dark:text-slate-100 text-xs font-semibold uppercase tracking-widest hover:text-primary transition-colors" href="#">Contacto</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden lg:flex min-w-[180px] cursor-pointer items-center justify-center rounded bg-primary text-neutral-dark text-[10px] font-bold uppercase tracking-[0.2em] h-10 px-6 hover:bg-primary/90 transition-all duration-300 shadow-sm">
+                    Solicitar Asistencia
+                </button>
+<button class="md:hidden text-neutral-dark dark:text-slate-100">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="relative h-[85vh] w-full flex flex-col items-center justify-center px-4 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-neutral-dark/40 z-10"></div>
+<div class="w-full h-full bg-cover bg-center transition-transform duration-1000 scale-105" data-alt="Luxurious high-end interior with elegant furniture and warm lighting" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBRnSrUD4Gz1_aBc8oUsSW_hikSiyOSOj1fA8LX7ecgV7vq3eCK3pXttFR-qXLfUHQOsLFdSKc0HeGusiw6FyszT0gnHVQZrCVKIHF3Zp78ezQZpamL-99vbaqUsEXyVjOKqtYBkUe16k3GOeOiIm9iC6Moc-qnG7LWwfyCchG9DYc3Zs15pTM9Sn3MNB1bu-3LJqEKfEF4xvExI4Pg662UrxmsTPy97lkgDMx-s6si7N7WjysUHwnMekf3fFrZRADxSvBk6xjpZXLt");'>
+</div>
+</div>
+<div class="relative z-20 flex flex-col items-center gap-8 text-center max-w-4xl mx-auto">
+<div class="flex flex-col gap-4">
+<span class="text-primary text-xs font-bold tracking-[0.4em] uppercase">Exclusividad en Sevilla</span>
+<h1 class="text-white text-5xl md:text-7xl font-light leading-[1.1] serif-title tracking-tight">
+                        Tu tiempo es tu <br/> mayor lujo
+                    </h1>
+<p class="text-white/80 text-base md:text-lg font-light leading-relaxed max-w-2xl mx-auto">
+                        Gestión de estilo de vida de alta gama y servicios de conserjería exclusivos para quienes valoran la discreción y la excelencia.
+                    </p>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 mt-4">
+<button class="flex min-w-[220px] cursor-pointer items-center justify-center rounded bg-primary text-neutral-dark text-xs font-bold uppercase tracking-[0.2em] h-14 px-8 hover:bg-white hover:text-neutral-dark transition-all duration-500">
+                        Descubrir Servicios
+                    </button>
+<button class="flex min-w-[220px] cursor-pointer items-center justify-center rounded border border-white/30 backdrop-blur-sm text-white text-xs font-bold uppercase tracking-[0.2em] h-14 px-8 hover:bg-white/10 transition-all">
+                        Agendar Consultoría
+                    </button>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce opacity-60">
+<span class="text-white text-[10px] uppercase tracking-widest font-bold">Scroll</span>
+<span class="material-symbols-outlined text-white">expand_more</span>
+</div>
+</section>
+<!-- Services Section -->
+<main class="flex-1 max-w-[1200px] mx-auto w-full py-24 px-6">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+<div class="max-w-xl">
+<h2 class="text-primary text-xs font-bold tracking-[0.3em] uppercase mb-4">Servicios Curados</h2>
+<h3 class="text-neutral-dark dark:text-slate-100 text-3xl md:text-4xl font-light serif-title">Excelencia en cada detalle de su vida cotidiana</h3>
+</div>
+<p class="text-neutral-muted text-sm max-w-xs leading-relaxed">
+                    Nuestra misión es liberar su agenda para que pueda centrarse en lo que verdaderamente importa.
+                </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Service Card 1 -->
+<div class="group flex flex-col gap-6 p-8 border border-primary/10 bg-white dark:bg-background-dark/50 hover:border-primary/40 transition-all duration-500">
+<div class="w-full aspect-square overflow-hidden bg-background-light">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="Elegant interior design with minimalist aesthetic and gold accents" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC6msSNrXhCjZrhaSHDcvY4uDycl7tp7erlZWHK5FMEH2eACozHUF3-x6NMx0Y2Ze5xGw3V3fOHRdBYVw0Wok8UtBguNG3QoeUZRrqV8TtPBPlPxJzaZ_bt92UkS-gH92J7FKN18SVkpdMUV0WsgfqIH0sxUabd3sYpvO3wKJzaa-5na5oIHIG-P-sZaIJzxPE9jHT73xqmKCuFtHUeaiNLcAOD4A5pAYz_49nD3oTN9JHu_mW8JKE1_wpKQmpV1mS6Vch9ijdw19yC");'></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">chair</span>
+<h4 class="text-neutral-dark dark:text-slate-100 text-lg font-medium tracking-wide uppercase text-xs font-bold">Diseño de Interiores</h4>
+</div>
+<p class="text-neutral-muted text-sm leading-relaxed">
+                            Espacios que reflejan su esencia con elegancia atemporal y una curaduría de materiales nobles.
+                        </p>
+</div>
+</div>
+<!-- Service Card 2 -->
+<div class="group flex flex-col gap-6 p-8 border border-primary/10 bg-white dark:bg-background-dark/50 hover:border-primary/40 transition-all duration-500">
+<div class="w-full aspect-square overflow-hidden bg-background-light">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="Professional planner and golden pen on a minimalist desk" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBs5fDf5pv8RhXWhW1pgPS6A8HXTgt67SXya6YhXWP26XkMU23AV5ud4p5aGrcLOge0ssf0nAiV0k-36ZxiPIMvQwPqcxALZEum5Sfl9xl6jeL5K-OzJBF2R-mFPsu0cnnl40_0TlVm1JuaNvc-fk8a1G2uAiNYBTineMAr7v4zw-VcZH03CmR2AQtGEtIMSfAnAi3w5Pn25MIvDIJmDqlGbKS-PN-jxmOEbTpoE47yr41TnBThSpfoggckpJFAIg4z2f6y6ews-UY1");'></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">calendar_month</span>
+<h4 class="text-neutral-dark dark:text-slate-100 text-lg font-medium tracking-wide uppercase text-xs font-bold">Gestión de Agenda</h4>
+</div>
+<p class="text-neutral-muted text-sm leading-relaxed">
+                            Optimización de su tiempo con discreción absoluta, coordinando cada evento y compromiso de su vida.
+                        </p>
+</div>
+</div>
+<!-- Service Card 3 -->
+<div class="group flex flex-col gap-6 p-8 border border-primary/10 bg-white dark:bg-background-dark/50 hover:border-primary/40 transition-all duration-500">
+<div class="w-full aspect-square overflow-hidden bg-background-light">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-110 transition-transform duration-700" data-alt="Luxury fashion boutique items neatly arranged" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBDyj_0-909LpN_XFqTap7WAYdjvk7IPhsIbhnzoLoQwDbJXjojgafJvMoc3UAPX9KPNWj6oGg-AM6EYBCyfF1bpeL3w3oAXfUyA5nl2b_Ze6DeOKYvZu9eq405hwrOKbGbOidB0J7-RSreKLg3n2IqgkfbE40orhIbPqty1Rry3YHf800dtg9iF92dFJbNhZ79uYZSQlQ6nZE89tkg1tknnbJ66SoNFPNDJSvLecmD-kpXQydaO2IC74ogqVOaLodpKZ95KbGSTy-8");'></div>
+</div>
+<div class="flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-xl">shopping_bag</span>
+<h4 class="text-neutral-dark dark:text-slate-100 text-lg font-medium tracking-wide uppercase text-xs font-bold">Personal Shopper</h4>
+</div>
+<p class="text-neutral-muted text-sm leading-relaxed">
+                            Acceso curado a las firmas más exclusivas del mundo y piezas de coleccionismo privadas.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Comparison Section -->
+<div class="mt-32 py-20 border-t border-primary/10">
+<div class="flex flex-col gap-12 items-center text-center max-w-3xl mx-auto mb-16">
+<div class="flex flex-col gap-4">
+<h2 class="text-primary text-xs font-bold tracking-[0.3em] uppercase">Diferenciación</h2>
+<h3 class="text-neutral-dark dark:text-slate-100 text-4xl font-light serif-title">Life Manager vs. Personal Concierge</h3>
+</div>
+<p class="text-neutral-muted text-base leading-relaxed">
+                        Entienda la diferencia entre la gestión estratégica e integral de su estilo de vida y la asistencia puntual de lujo.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+<!-- Life Manager -->
+<div class="relative group p-10 bg-white dark:bg-background-dark/30 border border-primary/5 hover:border-primary/20 transition-all">
+<div class="mb-6 inline-flex p-4 rounded-full bg-primary/5 text-primary">
+<span class="material-symbols-outlined text-4xl">king_bed</span>
+</div>
+<h4 class="text-xl font-light serif-title mb-4 tracking-wide dark:text-slate-100">Life Manager</h4>
+<p class="text-neutral-muted text-sm leading-relaxed mb-6">
+                            Un socio estratégico de confianza que anticipa sus necesidades. No solo reacciona a peticiones, sino que diseña proactivamente la arquitectura de su vida personal y profesional.
+                        </p>
+<ul class="flex flex-col gap-3 text-xs uppercase tracking-widest font-semibold text-neutral-dark/70 dark:text-slate-300">
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Gestión de Patrimonio</li>
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Estrategia de Estilo de Vida</li>
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Relaciones Institucionales</li>
+</ul>
+</div>
+<!-- Personal Concierge -->
+<div class="relative group p-10 bg-white dark:bg-background-dark/30 border border-primary/5 hover:border-primary/20 transition-all">
+<div class="mb-6 inline-flex p-4 rounded-full bg-primary/5 text-primary">
+<span class="material-symbols-outlined text-4xl">room_service</span>
+</div>
+<h4 class="text-xl font-light serif-title mb-4 tracking-wide dark:text-slate-100">Personal Concierge</h4>
+<p class="text-neutral-muted text-sm leading-relaxed mb-6">
+                            Asistencia premium bajo demanda para resolver requerimientos específicos. Desde reservas en restaurantes con estrellas Michelin hasta la logística de eventos privados de última hora.
+                        </p>
+<ul class="flex flex-col gap-3 text-xs uppercase tracking-widest font-semibold text-neutral-dark/70 dark:text-slate-300">
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Reservas Exclusivas</li>
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Logística de Viajes</li>
+<li class="flex items-center gap-2"><span class="text-primary">•</span> Acceso a Eventos VIP</li>
+</ul>
+</div>
+</div>
+</div>
+</main>
+<!-- CTA Section -->
+<section class="bg-neutral-dark text-white py-24 px-6 text-center">
+<div class="max-w-2xl mx-auto flex flex-col items-center gap-10">
+<span class="text-primary text-xs font-bold tracking-[0.4em] uppercase">Comience su experiencia</span>
+<h2 class="text-4xl md:text-5xl font-light serif-title leading-tight">Permítanos devolverle <br/> su activo más valioso</h2>
+<button class="flex min-w-[280px] cursor-pointer items-center justify-center rounded bg-primary text-neutral-dark text-xs font-bold uppercase tracking-[0.2em] h-14 px-10 hover:bg-white transition-all duration-300">
+                    Solicitar Asistencia Privada
+                </button>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-light dark:bg-background-dark py-16 px-10 border-t border-primary/10">
+<div class="max-w-[1200px] mx-auto flex flex-col md:flex-row justify-between gap-12">
+<div class="flex flex-col gap-6">
+<div class="flex items-center gap-3 text-neutral-dark dark:text-slate-100">
+<span class="material-symbols-outlined text-primary">temple_hindu</span>
+<h2 class="text-lg font-light tracking-[0.2em] uppercase serif-title">Otium Concierge</h2>
+</div>
+<p class="text-neutral-muted text-xs max-w-xs leading-relaxed uppercase tracking-tighter">
+                        Sevilla, España. <br/> Servicios globales para un estilo de vida sin fronteras.
+                    </p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-12">
+<div class="flex flex-col gap-4">
+<span class="text-neutral-dark dark:text-slate-100 text-[10px] font-bold uppercase tracking-widest">Contacto</span>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">Sevilla Office</a>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">hola@otium.com</a>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">+34 954 000 000</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-neutral-dark dark:text-slate-100 text-[10px] font-bold uppercase tracking-widest">Legal</span>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">Privacidad</a>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">Cookies</a>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">Términos</a>
+</div>
+<div class="flex flex-col gap-4">
+<span class="text-neutral-dark dark:text-slate-100 text-[10px] font-bold uppercase tracking-widest">Redes</span>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="text-neutral-muted text-xs hover:text-primary transition-colors" href="#">LinkedIn</a>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-20 pt-8 border-t border-primary/5 text-center">
+<p class="text-[10px] text-neutral-muted uppercase tracking-[0.2em]">© 2024 Otium Concierge. Gestión de Estilo de Vida de Lujo.</p>
+</div>
+</footer>
+<!-- Sticky Floating CTA -->
+<div class="fixed bottom-8 right-8 z-[100] hidden lg:block">
+<button class="flex items-center gap-3 bg-primary text-neutral-dark px-6 py-4 rounded shadow-2xl hover:scale-105 transition-all duration-300">
+<span class="material-symbols-outlined">support_agent</span>
+<span class="text-[10px] font-bold uppercase tracking-widest">Asistencia 24/7</span>
+</button>
+</div>
+</div>
+</body></html>
