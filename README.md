@@ -1,24 +1,30 @@
-# 🚀 Landing Page de Servicios Web | [Tu Nombre]
+# 🏛️ Otium Concierge | Personal Concierge & Life Manager
 
-Esta es mi plataforma profesional donde ofrezco soluciones de desarrollo web de alto rendimiento. Como estudiante de **DAM (Desarrollo de Aplicaciones Multiplataforma)**, enfoco mis proyectos en la limpieza del código, la velocidad de carga y la conversión de clientes.
+**Despliegue en vivo:** [https://flopypalma-16-11.github.io/landing-servicios/](https://flopypalma-16-11.github.io/landing-servicios/)
 
-## 🛠️ Tecnologías utilizadas
-* **HTML5 Semántico:** Estructura sólida y accesible.
-* **CSS3 (Custom Properties):** Diseño moderno, minimalista y responsive (Mobile-first).
-* **JavaScript Vanilla:** Lógica de negocio pura, sin dependencias externas, para una carga ultra rápida.
+Landing page profesional desarrollada para **Otium Concierge**, una agencia de servicios de lujo y gestión de estilo de vida con base en Sevilla. Este proyecto combina una estética minimalista "premium" con una arquitectura de código limpia y eficiente.
 
-## 🌟 Servicios Destacados
-1. **Landings de Alta Conversión:** Optimizadas para campañas de venta.
-2. **Webs Corporativas:** Presencia digital profesional para negocios locales.
-3. **Catálogos Digitales:** Escaparates interactivos con integración de pagos y WhatsApp.
+## 🎯 Objetivo del Proyecto
+El objetivo era crear una interfaz que transmitiera **exclusividad, discreción y orden**. Se ha priorizado la experiencia de usuario (UX) para clientes de alto perfil, facilitando la conversión a través de formularios claros y una navegación fluida.
 
-## 📈 Casos de Éxito
-* **Otium Concierge:** Landing page de lujo diseñada para gestión de servicios exclusivos en Sevilla.
+## 🚀 Características Técnicas
+Como parte de mi formación en **DAM**, este proyecto aplica estándares de desarrollo profesional:
+* **Diseño Responsive:** Adaptabilidad total a dispositivos móviles y tablets (Mobile-First).
+* **Arquitectura CSS3:** Uso de variables nativas (Custom Properties) para una gestión de colores coherente (Mocha, Crema y Eneldo).
+* **Manipulación Limpia del DOM:** Lógica de interacción programada en **JavaScript Vanilla**, evitando vulnerabilidades y optimizando el rendimiento.
+* **SEO & Accesibilidad:** Uso de HTML5 semántico para mejorar el posicionamiento y la lectura por parte de asistentes de voz.
 
-## ⚙️ Instalación y despliegue
-Si quieres ver este proyecto en local:
-1. Clona el repo: `git clone https://github.com/TU_USUARIO/landing-servicios.git`
-2. Abre `index.html` en tu navegador.
+## 🛠️ Stack Tecnológico
+* **Estructura:** HTML5 Semántico.
+* **Estilos:** CSS3 (Flexbox & Grid Layout).
+* **Interactividad:** JavaScript ES6+.
+* **Iconografía:** Integración de Google Material Symbols.
 
----
-📫 **¿Hablamos?** [645480065]
+## 📂 Estructura de Archivos
+```text
+├── assets/
+│   ├── css/        # Hojas de estilo modulares
+│   ├── js/         # Lógica de navegación e interacción
+│   └── img/        # Recursos visuales optimizados
+├── index.html      # Estructura principal de la landing
+└── README.md       # Documentación del proyecto
